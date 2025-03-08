@@ -556,8 +556,21 @@ border-radius: 10px;
 text-decoration: none;
 }
 
-
-
+.buttonx{
+display: inline-block;
+padding: 10px 20px;
+border-radius: 8px;
+border: 1px solid green;
+text-decoration: none;
+margin: 20px;
+color: black;
+}
+.buttonx:hover{
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+  
+}
 
 
 
