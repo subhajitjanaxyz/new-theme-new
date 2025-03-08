@@ -14,10 +14,6 @@ include_once("inc/logo_change.php");
 */
 include_once("inc/registernavbar.php");
 /**
- * all custom post type
-*/
-include_once("inc/add_custom_prt.php");
-/**
  * all custom excerpt type
 */
 include_once("inc/customize excerpt.php");
@@ -32,12 +28,6 @@ function basic_shortcoder(){
     return "Ali is a web developer";
   }
   add_shortcode( 'ali', 'basic_shortcoder');
-
-
-
-
-
-
 // Button Shortcode
 function button_shortcode( $atts, $content = null ){
     $values = shortcode_atts( array (
